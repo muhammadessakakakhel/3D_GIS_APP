@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Golden Gate Bridge",
+      "coordinates": [-122.4783, 37.8199],
+      "description": "A famous suspension bridge in San Francisco."
+    },
+    {
+      "id": 2,
+      "name": "Alcatraz Island",
+      "coordinates": [-122.4233, 37.8267],
+      "description": "A small island with a historic former prison."
+    },
+    {
+      "id": 3,
+      "name": "Fisherman's Wharf",
+      "coordinates": [-122.4167, 37.8080],
+      "description": "A popular tourist area with seafood and souvenirs."
+    }
+  ]
+  

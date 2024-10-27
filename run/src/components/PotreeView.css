@@ -1,0 +1,47 @@
+/* Center the entire component horizontally and vertically */
+.potree-view-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #f0f0f0; /* Optional: Light background color */
+  }
+  
+  /* Style the container for the viewer */
+  .potree-view-container {
+    width: 80%;
+    height: 80%;
+    background-color: #000; /* Optional: Dark background for the viewer */
+    border-radius: 10px; /* Optional: Rounded corners */
+    overflow: hidden; /* Ensures the content doesn't overflow */
+  }
+  
+  /* Style the controls container to remain at the top center in a horizontal direction */
+.potree-view-controls {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  /* Style the control buttons */
+  .potree-view-controls button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .potree-view-controls button:hover {
+    background-color: #0056b3;
+  }
