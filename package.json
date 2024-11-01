@@ -28,7 +28,7 @@
     "react-dom": "^18.2.0",
     "react-map-gl": "^7.1.7",
     "react-tabs": "^6.0.2",
-    "three": "^0.156.1",
+    "three": "^0.126.1",
     "three-orbitcontrols": "^2.110.3"
   },
   "devDependencies": {
